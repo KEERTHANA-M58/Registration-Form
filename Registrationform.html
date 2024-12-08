@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <center>
+
+        <h1> REGISTRATION </h1>
+        <form action="event.html" method="get">
+    <div>
+        <label for="fname">First Name</label>
+        <input type =" text" id="fname" name="fname" class="fname" required></label>
+    </div>
+    <br>
+    <div>
+        <label for="lname">Last Name</label>
+        <input type ="text" id="lname" name="lname" class="lname" required></label>
+    </div>
+    <br>
+    <div id="Password">
+        <label>Password</label>
+        <input type="password" id="password    " name="password" placeholder="Your Password" required maxlength="8" minlength="3">
+    </div>
+    <br>
+    <div>
+        <label for="DOB">DOB  </label>
+        <input type="date"name="DOB" class="DOB"required ></label>
+    </div>
+    <br>
+    <div>
+        <label for="email">Email  </label>
+        <input type="email"name="email" class="email"required></label>
+    </div>
+    <br>
+    <div>
+        <label for="gender">Gender</label>
+        <center>
+        <label for="female">Female  </label>
+        <input type="radio"name="gender" class="female"required></label>
+        <label for="male">Male  </label>
+        <input type="radio"name="gender" class="male"required></label>
+    </center>
+    </div>
+    <br>
+    <div>
+        <label>State</label>
+        <select name="state" id="state" name ="state" >
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Mandhya Pradesh">Mandhya Pradesh</option>
+            <option value="AP">AP</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="mailalert">HTML</label>
+        <input type="checkbox" id="mailalert" name="mailalert">
+    </div>
+    <br>
+    <div>
+        <label for="smsalert">CSS</label>
+        <input type="checkbox" id="smsalert" name="smsalert">
+    </div>
+    <br>
+    <div>
+        <label for="mailalert">Javascript</label>
+        <input type="checkbox" id="mailalert" name="mailalert">
+    </div>
+    <br>
+    <div>
+        <label for="smsalert">React JS</label>
+        <input type="checkbox" id="smsalert" name="smsalert">
+    </div>
+    <br>
+    <div>
+        <label for="Resume">Resume</label>
+        <input id="Resume" type="file"  width="30" height="20">
+    </div>
+    <br>
+    <div>
+        <input type="hidden" name="hidden" id="hidden" value="123">
+    </div>
+    <button>Register</button>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(138, 213, 134);
+            border-radius: 5px;
+            display:grid;
+            background-origin: padding-box;
+            border: 0  dashed red;
+            border-color: black;
+            border-width: 4px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        
+        }
+        button{
+            font-style: italic black;
+            background-color: blanchedalmond;
+        }
+    </style>
+    </form>
+</center>
+    
+</body>
+</html>
